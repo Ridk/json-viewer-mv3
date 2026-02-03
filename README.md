@@ -2,7 +2,7 @@
 
 # JSON Viewer
 
-![screenshot](https://raw.githubusercontent.com/tulios/json-viewer/master/screenshot.png)
+![screenshot](https://github.com/Ridk/json-viewer-mv3/blob/main/screenshot.png)
 
 The most beautiful and customizable JSON/JSONP highlighter that your eyes have ever seen. It is a Chrome extension for printing JSON and JSONP.
 
