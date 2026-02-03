@@ -1,0 +1,31 @@
+{
+  "name": "json_viewer",
+  "version": "0.18.1-mv3",
+  "description": "The most beautiful and customizable JSON/JSONP highlighter that your eyes have ever seen. Open source at https://github.com/tulios/json-viewer",
+  "author": "Tulio Ornelas <ornelas.tulio@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/tulios/json-viewer",
+  "private": true,
+  "dependencies": {
+    "codemirror": "^5.65.18",
+    "mousetrap": "^1.6.5",
+    "promise": "^8.3.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "archiver": "^5.3.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.10.0",
+    "fs-extra": "^11.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-libs-browser": "^2.2.1",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --progress --color && node ./lib/release-script",
+    "build:dev": "webpack --mode=development --progress --color"
+  }
+}
